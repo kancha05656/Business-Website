@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "name":"Nolez",
+    "url":"https://nolez.netlify.com/",
+    "img":"/img/portfolio/nolez.jpg",
+    "color":"#4582FF",
+    "catagory":"design"
+  },
+  {
+    "id": 2,
+    "name":"Voker",
+    "url":"https://voker.netlify.com/",
+    "img":"/img/portfolio/voker.jpg",
+    "color":"#FEA116",
+    "catagory":"design"
+  },
+  {
+    "id": 3,
+    "name":"Pizzaro",
+    "url":"https://project-pezzaro.netlify.com",
+    "img":"/img/portfolio/pizzaro.jpg",
+    "color":"#C10A28",
+    "catagory":"design"
+  },
+  {
+    "id": 4,
+    "name":"Cadentic",
+    "url":"https://voker.netlify.com/",
+    "img":"/img/portfolio/cadentic.jpg",
+    "color":"#4E41B3",
+    "catagory":"design"
+  },
+  {
+    "id": 5,
+    "name":"Car web",
+    "url":"https://voker.netlify.com/",
+    "img":"/img/portfolio/carweb.jpg",
+    "color":"#E62E36",
+    "catagory":"design"
+  },
+  {
+    "id": 6,
+    "name":"Dulu",
+    "url":"https://duellefashion.com/",
+    "img":"/img/portfolio/dulu.jpg",
+    "color":"#E4AEBC",
+    "catagory":"design"
+  },
+  {
+    "id": 7,
+    "name":"Add Romance",
+    "url":"https://addromance.com/",
+    "img":"/img/portfolio/add-romance.jpg",
+    "color":"#7C9792",
+    "catagory":"bugfix"
+  },
+  {
+    "id": 8,
+    "name":"allgloria",
+    "url":"https://allgloria.com/",
+    "img":"/img/portfolio/allgloria.jpg",
+    "color":"#18295F",
+    "catagory":"wp"
+  },
+  {
+    "id": 9,
+    "name":"amazon account",
+    "url":"https://amazon-accounts.co/",
+    "img":"/img/portfolio/amazon-account.jpg",
+    "color":"#393532",
+    "catagory":"bugfix"
+  },
+  {
+    "id": 10,
+    "name":"arttoremember",
+    "url":"https://arttoremember.com/",
+    "img":"/img/portfolio/atr-remember.jpg",
+    "color":"#0191C3",
+    "catagory":"design"
+  },
+  {
+    "id": 11,
+    "name":"bazna",
+    "url":"https://bazna.netlify.com/",
+    "img":"/img/portfolio/bazna.jpg",
+    "color":"#8F9392",
+    "catagory":"design"
+  },
+  {
+    "id": 12,
+    "name":"coupon theme",
+    "url":"http://cp9.wlthemes.com/",
+    "img":"/img/portfolio/coupon-theme.jpg",
+    "color":"#B17D34",
+    "catagory":"design"
+  },
+  {
+    "id": 13,
+    "name":"ctexmarkets",
+    "url":"https://www.ctexmarkets.com/",
+    "img":"/img/portfolio/ctex.jpg",
+    "color":"#3B475D ",
+    "catagory":"bugfix"
+  },
+  {
+    "id": 14,
+    "name":"entertek",
+    "url":"https://entretek.com",
+    "img":"/img/portfolio/entertek.jpg",
+    "color":"#6E757B ",
+    "catagory":"bugfix"
+  },
+  {
+    "id": 15,
+    "name":"escrow famebolt",
+    "url":"https://escrow.famebolt.com/",
+    "img":"/img/portfolio/famebolt.jpg",
+    "color":"#B08532 ",
+    "catagory":"design"
+  },
+  {
+    "id": 16,
+    "name":"freshmilk software",
+    "url":"https://www.freshmilksoftware.com/flobot/",
+    "img":"/img/portfolio/FLOBOT.jpg",
+    "color":"#3B8CC1 ",
+    "catagory":"bugfix"
+  },
+  {
+    "id": 17,
+    "name":"homanbuoy",
+    "url":"http://www.homanbuoy.com/",
+    "img":"/img/portfolio/ims.jpg",
+    "color":"#3F4F5F ",
+    "catagory":"bugfix"
+  },
+  {
+    "id": 18,
+    "name":"kmcre",
+    "url":"https://kmcre.netlify.com/",
+    "img":"/img/portfolio/kmcre.jpg",
+    "color":"#ADB1B0 ",
+    "catagory":"design"
+  },
+  {
+    "id": 19,
+    "name":"lightwaretech",
+    "url":"https://lightweartech.com",
+    "img":"/img/portfolio/lightwaretech.jpg",
+    "color":"#6192BA ",
+    "catagory":"bugfix"
+  },
+  {
+    "id": 20,
+    "name":"love funeral",
+    "url":"https://get.lovefuneralplans.com/",
+    "img":"/img/portfolio/love-funeral.jpg",
+    "color":"#286896 ",
+    "catagory":"bugfix"
+  },
+  {
+    "id": 21,
+    "name":"whereto go",
+    "url":"https://checkmenu.netlify.com/",
+    "img":"/img/portfolio/whereto-go.jpg",
+    "color":"#343338 ",
+    "catagory":"bugfix"
+  }
+]
+
