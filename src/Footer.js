@@ -28,11 +28,11 @@ export default class Footer extends React.Component {
               <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ItFamiliar"><i className="fab fa-twitter"></i></a></li>
               <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/familiar-it-5b1a67128/"><i className="fab fa-linkedin-in"></i></a></li>
               <li><a target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/familiarIT/"><i className="fab fa-pinterest-p"></i></a></li>
-        
+
             </ul>
           </div>
         </div>
-     
+
 
         <div className="col-sm-6 col-lg-3">
           <div className="single-footer-widget">
@@ -47,7 +47,7 @@ export default class Footer extends React.Component {
             </div>
           </div>
         </div>
-      
+
 
         <div className="col-sm-6 col-lg-3">
           <div className="single-footer-widget">
@@ -68,7 +68,7 @@ export default class Footer extends React.Component {
             </div>
           </div>
         </div>
-      
+
 
 
         <div className="col-sm-6 col-lg-3">
@@ -87,39 +87,13 @@ export default class Footer extends React.Component {
       </div>
     </div>
   </footer>
- 
+
 
   <div className="footer-copyright text-center">
-    <p>Copyright &copy; 2019 <span>Familiar-IT</span> All Rights Reserved</p>
+    <p>Copyright &copy; 2019 <span>Webapprevolution</span> All Rights Reserved</p>
   </div>
 
 			</div>
 		);
 	}
 }
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-

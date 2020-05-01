@@ -123,12 +123,12 @@ class App extends Component {
                         <div className="top-header">
                             <div className="container d-flex justify-content-between align-items-center">
                                 <div className="top-header-content">
-                                    <a href="tel:+8801727-900653"><i className="fas fa-phone"></i> +8801727-900653</a>
-                                    <a href="mailto:familiarit.star@gmail.com"><i
-                                        className="fas fa-envelope"></i> familiarit.star@gmail.com</a>
+                                    <a href="tel:(616) 953-6133"><i className="fas fa-phone"></i> (616) 953-6133</a>
+                                    <a href="mailto:webapprevolution2020@gmail.com"><i
+                                        className="fas fa-envelope"></i> Webapprevolution2020@gmail.com</a>
                                 </div>
                                 <div className="top-header-btn">
-                                    <Link className="btn modern-btn" to="/Contact">get a quoat</Link>
+                                    <Link className="btn modern-btn" to="/Contact">Get quote ?</Link>
                                 </div>
                             </div>
                         </div>
@@ -191,8 +191,8 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-10 m-auto text-center">
                             <div className="banner-content white-text">
-                                <h1>WE WILL MAKE YOUR <span>BUSSINES</span> <span className="block">MODERN</span></h1>
-                                <h3> Your Imagination and our Innovation will create a modern world.</h3>
+                                <h1>WE WILL MAKE YOUR <span>Imagination</span> come to <span className="block">Live</span></h1>
+                                <h3> With Your Imagination and Our Innovation We Will Take Your Business Into Online Modern world.</h3>
                             </div>
                             <div className="banner-btn">
                                 <Link to="/about" className="btn modern-btn">INFORMATION</Link>

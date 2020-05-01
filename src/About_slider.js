@@ -107,8 +107,6 @@ class SimpleSlider extends React.Component {
 
   }
 
-
-
 }
 
 

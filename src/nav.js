@@ -22,11 +22,11 @@ return(
     <div className="top-header">
       <div className="container d-flex justify-content-between align-items-center">
         <div className="top-header-content">
-          <a href="tel:01872399762"><i className="fas fa-phone"></i> +8801727-900653</a>
-          <a href="mailto:familiarit.star@gmail.com"><i className="fas fa-envelope"></i> familiarit.star@gmail.com</a>
+          <a href="tel:(616) 953-6133"><i className="fas fa-phone"></i> (616) 953-6133</a>
+          <a href="mailto:webapprevolution@gmail.com"><i className="fas fa-envelope"></i> webapprevolution@gmail.com</a>
         </div>
         <div className="top-header-btn">
-          <a className="btn modern-btn" href="/">get a quoat</a>
+          <a className="btn modern-btn" href="/">get a Quote</a>
         </div>
       </div>
     </div>
