@@ -55,14 +55,14 @@ export default class Footer extends React.Component {
               <h4>CONTACT US</h4>
               <ul className="footer-contact">
                 <li> <i className="fas fa-map-marker-alt"></i>
-                  <p>1702-Solmaid, Vatara<br/>Dhaka, Bangladesh </p>
+                  <p>West Jolly Road<br/>Lansing, Michigan </p>
                 </li>
                 <li> <i className="fas fas fa-envelope"></i>
-                  <p>alaminislam9172@gmail.com</p>
-                  <p>familiarit.star@gmail.com</p>
+                  <p>webapprevolution2020@gmail.com</p>
+                  {/*<p>familiarit.star@gmail.com</p>*/}
                 </li>
                 <li> <i className="fas fas fa-phone"></i>
-                  <p>+8801727-900653<br/>+8801872-399762</p>
+                  <p>(616) 953-6133<br/></p>
                 </li>
               </ul>
             </div>
@@ -90,7 +90,7 @@ export default class Footer extends React.Component {
 
 
   <div className="footer-copyright text-center">
-    <p>Copyright &copy; 2019 <span>Webapprevolution</span> All Rights Reserved</p>
+    <p>Copyright &copy; 2019 <span>Web App Revolution</span> All Rights Reserved</p>
   </div>
 
 			</div>

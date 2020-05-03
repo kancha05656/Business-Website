@@ -283,7 +283,7 @@ function Home() {
             </section>
 
 
-            <TeamSlider/>
+          {/*<TeamSlider/>*/}
 
 
             <section className="testmonial-section-wrapper">
