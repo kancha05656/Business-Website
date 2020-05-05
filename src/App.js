@@ -19,7 +19,7 @@ import './css/style.css';
 import './App.css';
 import './css/responsive.css';
 
-import logo from './img/logo.svg'
+import logo from './img/logo.png'
 
 import banner from './img/banner.jpg'
 // import author1 from './img/testomonial-author/testomonial-author-img-1.jpg'
@@ -220,7 +220,7 @@ function Home() {
                                 <div className="video-content">
                                     <span>We have an excellent story</span>
                                     <h2>Watch Our Video</h2>
-                                    <button type="button" className="video-btn"><i className="fa fas fa-play"></i>
+                                    <button type="button"  data-channel="video" data-video-url="http://developer.a-blogcms.jp/themes/developer/movies/2.8.0.mp4" className="video-btn js-video-button"><i className="fa fas fa-play"></i>
                                     </button>
                                 </div>
                             </div>
