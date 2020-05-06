@@ -242,7 +242,7 @@ a {
 
 /*logo*/
 .header-logo img {
-	width: 100px;
+	width: 170px;
 }
 
 
@@ -273,7 +273,7 @@ header {
 }
 
 .top-header-content a i {
-	color: var(--primary-color);
+	color: #fff;
 	display: inline-block;
 	margin-right: 3px;
 }
@@ -334,7 +334,7 @@ section.banner-area:before {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, .75);
+	background: rgba(0, 0, 0, .4);
 }
 
 .banner-content.white-text h1 span.block {
@@ -1342,8 +1342,8 @@ section.counter-section-wrapper::after {
 /* footer css */
 footer {
 	background-color: #1a1a1a;
-	padding-bottom: 70px;
-	padding-top: 100px;
+	    padding-bottom: 40px;
+    padding-top: 80px;
 }
 
 .single-footer-widget {

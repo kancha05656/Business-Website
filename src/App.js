@@ -19,7 +19,7 @@ import './css/style.css';
 import './App.css';
 import './css/responsive.css';
 
-import logo from './img/logo.png'
+import logo from './img/logo.svg'
 
 import banner from './img/banner.jpg'
 // import author1 from './img/testomonial-author/testomonial-author-img-1.jpg'

@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Footer from './Footer'
 import Cta from './Cta'
 import Banner from './Banner'
-import contactBanner from './img/contact-bg.jpg'
+import contactBanner from './img/Portfolio.png'
 import ProCard from './ProCard'
 import ProData from './ProData'
 
