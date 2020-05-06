@@ -1,3 +1,0 @@
-    $(".js-video-button").modalVideo({
-      
-    });

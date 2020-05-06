@@ -26,15 +26,15 @@
   {
     "id": 4,
     "name":"Cadentic",
-    "url":"https://voker.netlify.com/",
+    "url":"https://cadentic.netlify.com/",
     "img":"/img/portfolio/cadentic.jpg",
     "color":"#4E41B3",
     "catagory":"design"
   },
   {
     "id": 5,
-    "name":"Car web",
-    "url":"https://voker.netlify.com/",
+    "name":"alqaryah auction",
+    "url":"https://alqaryahauction.com",
     "img":"/img/portfolio/carweb.jpg",
     "color":"#E62E36",
     "catagory":"design"
