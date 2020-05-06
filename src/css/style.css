@@ -3,7 +3,8 @@
 
 /* color variable */
 :root {
-	--primary-color: #2c508e;
+	/* --primary-color: #2c508e; */
+	--primary-color: #0764EA;
 	--secondary-color: #F6F6F6;
 	--bg-primary: #ffffff;
 	--bg-secondary: #F4F4F9;
