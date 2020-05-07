@@ -11,8 +11,11 @@
 
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width:1500px) {
-
+@media  (max-width:1000px) {
+section.banner-area.inner-banner-wrapper {
+    background-size: cover;
+    background-position: right;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -244,8 +247,8 @@
 
   .video-content button {
     font-size: 28px;
-    height: 80px;
-    width: 80px;
+   /*  height: 80px;
+    width: 80px; */
     border: 2px solid #f1f1f1;
     line-height: 76px;
   }
@@ -708,7 +711,7 @@
   }
 
   .header-logo img {
-        width: 110px;
+        width: 120px;
     padding: 10px 0px;
   }
 

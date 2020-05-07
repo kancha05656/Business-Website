@@ -21,7 +21,7 @@ import './css/responsive.css';
 
 import logo from './img/logo.svg'
 
-import banner from './img/banner.jpg'
+import banner from './img/banner.png'
 // import author1 from './img/testomonial-author/testomonial-author-img-1.jpg'
 // import author2 from './img/testomonial-author/testomonial-author-img-2.jpg'
 // import author3 from './img/testomonial-author/testomonial-author-img-3.jpg'
@@ -124,7 +124,7 @@ class App extends Component {
                                 <div className="top-header-content">
                                     <a href="tel:(616) 953-6133"><i className="fas fa-phone"></i> (616) 953-6133</a>
                                     <a href="mailto:webapprevolution2020@gmail.com"><i
-                                        className="fas fa-envelope"></i> Webapprevolution2020@gmail.com</a>
+                                        className="fas fa-envelope"></i> Webapprevolutions@gmail.com</a>
                                 </div>
                                 <div className="top-header-btn">
                                     <Link className="btn modern-btn" to="/Contact">Get quote ?</Link>
@@ -159,15 +159,11 @@ class App extends Component {
                     <Switch>
                         <Route exact path="/" component={Home}/>
 
-
                         <Route path="/about" component={About}/>
-
 
                         <Route path="/service" component={Service}/>
 
-
                         <Route path="/Protfolio" component={Protfolio}/>
-
 
                         <Route path="/Contact" component={Contact}/>
 
@@ -194,7 +190,7 @@ class Home extends Component {
     this.setState({isOpen: true})
   }
 
-  render(){ 
+  render(){
     return (
         <div>
 
@@ -203,8 +199,8 @@ class Home extends Component {
                     <div className="row">
                         <div className="col-lg-10 m-auto text-center">
                             <div className="banner-content white-text">
-                                <h1>WE WILL MAKE YOUR <span>Imagination</span> come to <span className="block">Live</span></h1>
-                                <h3> With Your Imagination and Our Innovation We Will Take Your Business Into Online Modern world.</h3>
+                                <h1>Globalize Your <span>Business</span> With our <span className="block">Innovation</span></h1>
+
                             </div>
                             <div className="banner-btn">
                                 <Link to="/about" className="btn modern-btn">INFORMATION</Link>
@@ -232,7 +228,7 @@ class Home extends Component {
                                     <span>We have an excellent story</span>
                                     <h2>Watch Our Video</h2>
                 <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})} />
-         
+
                                     <button type="button" onClick={this.openModal}  className="video-btn js-video-button"><i className="fa fas fa-play"></i>
                                     </button>
                                 </div>
@@ -296,7 +292,7 @@ class Home extends Component {
             </section>
 
 
-            <TeamSlider/>
+          <TeamSlider/>
 
 
             <section className="testmonial-section-wrapper">
