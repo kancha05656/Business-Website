@@ -708,7 +708,8 @@
   }
 
   .header-logo img {
-    width: 90px;
+        width: 110px;
+    padding: 10px 0px;
   }
 
   .inner-banner-content p {
