@@ -10,7 +10,7 @@ import Footer from './Footer'
 import Cta from './Cta'
 import AboutSlider from './About_slider'
 import ServiceSection from './Service_section'
-
+import ModalVideo from 'react-modal-video'
 
 import './css/fontawesome-all.min.css';
 import './css/grid.css';
@@ -37,8 +37,8 @@ import {
 
 class App extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
             click: ""
         };
@@ -46,9 +46,8 @@ class App extends Component {
         this.topscroll = React.createRef();
         this.mainHeader = React.createRef();
         this.navClick = this.navClick.bind(this);
-        this.scrlbar = this.scrlbar.bind(this)
+        this.scrlbar = this.scrlbar.bind(this);
     }
-
 
     componentDidMount() {
         let mainHeader = document.getElementsByClassName("main-header")[0];
@@ -125,7 +124,7 @@ class App extends Component {
                                 <div className="top-header-content">
                                     <a href="tel:(616) 953-6133"><i className="fas fa-phone"></i> (616) 953-6133</a>
                                     <a href="mailto:webapprevolution2020@gmail.com"><i
-                                        className="fas fa-envelope"></i> Webapprevolution2020@gmail.com</a>
+                                        className="fas fa-envelope"></i> Webapprevolutions@gmail.com</a>
                                 </div>
                                 <div className="top-header-btn">
                                     <Link className="btn modern-btn" to="/Contact">Get quote ?</Link>
@@ -182,7 +181,20 @@ class App extends Component {
 }
 
 
-function Home() {
+class Home extends Component {
+      constructor() {
+        super();
+        this.state = {
+            isOpen: false
+        };
+          this.openModal = this.openModal.bind(this)
+    }
+
+  openModal () {
+    this.setState({isOpen: true})
+  }
+
+  render(){
     return (
         <div>
 
@@ -191,8 +203,8 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-10 m-auto text-center">
                             <div className="banner-content white-text">
-                                <h1>WE WILL MAKE YOUR <span>Imagination</span> come to <span className="block">Live</span></h1>
-                                <h3> With Your Imagination and Our Innovation We Will Take Your Business Into Online Modern world.</h3>
+                                <h1>Globalize Your <span>Business</span> With our <span className="block">Innovation</span></h1>
+
                             </div>
                             <div className="banner-btn">
                                 <Link to="/about" className="btn modern-btn">INFORMATION</Link>
@@ -209,7 +221,6 @@ function Home() {
 
             <ServiceSection/>
 
-
             <section className="video-section-wrapper">
                 <div className="container-fluid">
                     <div className="row flex-row-reverse no-gutters">
@@ -220,7 +231,9 @@ function Home() {
                                 <div className="video-content">
                                     <span>We have an excellent story</span>
                                     <h2>Watch Our Video</h2>
-                                    <button type="button" className="video-btn"><i className="fa fas fa-play"></i>
+                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})} />
+
+                                    <button type="button" onClick={this.openModal}  className="video-btn js-video-button"><i className="fa fas fa-play"></i>
                                     </button>
                                 </div>
                             </div>
@@ -283,7 +296,7 @@ function Home() {
             </section>
 
 
-          {/*<TeamSlider/>*/}
+          <TeamSlider/>
 
 
             <section className="testmonial-section-wrapper">
@@ -302,6 +315,7 @@ function Home() {
         </div>
 
     )
+  }
 }
 
 
