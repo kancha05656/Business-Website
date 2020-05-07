@@ -339,7 +339,7 @@ class TestimonialSlider extends React.Component {
 
 
     render() {
-        var settings = {
+         var settings = {
             arrows: false,
             dots: false,
       infinite: false,
@@ -353,22 +353,18 @@ class TestimonialSlider extends React.Component {
           breakpoint: 1024,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 2,
-            infinite: true,
-              arrows: false,
-            dots: false,
+            slidesToScroll: 2
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 650,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1
+            slidesToScroll: 1
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 650,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
