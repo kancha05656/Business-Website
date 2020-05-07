@@ -21,7 +21,7 @@ import './css/responsive.css';
 
 import logo from './img/logo.svg'
 
-import banner from './img/banner.jpg'
+import banner from './img/banner.png'
 // import author1 from './img/testomonial-author/testomonial-author-img-1.jpg'
 // import author2 from './img/testomonial-author/testomonial-author-img-2.jpg'
 // import author3 from './img/testomonial-author/testomonial-author-img-3.jpg'
@@ -159,15 +159,11 @@ class App extends Component {
                     <Switch>
                         <Route exact path="/" component={Home}/>
 
-
                         <Route path="/about" component={About}/>
-
 
                         <Route path="/service" component={Service}/>
 
-
                         <Route path="/Protfolio" component={Protfolio}/>
-
 
                         <Route path="/Contact" component={Contact}/>
 
