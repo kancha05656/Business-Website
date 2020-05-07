@@ -74,14 +74,17 @@ export default class Footer extends React.Component {
 
         <div className="col-sm-6 col-lg-3">
           <div className="single-footer-widget">
-            <div className="footer-widget-title">
-              <h4>SUBSCRIBE</h4>
+     <div className="footer-widget-title">
+              <h4>USEFUL LINK</h4>
+           <ul className="footer-service-list">
+                <li><Link to="/" >Home</Link></li>
+                <li><Link to="/service" >Service</Link></li>
+                <li><Link to="/service">Contact Us</Link></li>
+                <li><Link to="/service">Privacy And Policy</Link></li>
+                <li><Link to="/service">Terms And Conditions</Link></li>
+              </ul>
             </div>
-            <p>Subscribe us to get new informations about website theme and our services offer.</p>
-            <form action="#" className="footer-subscribe-form">
-              <input type="text" placeholder="Your email address" />
-              <button type="submit"><i className="fas fa-location-arrow"></i></button>
-            </form>
+
           </div>
         </div>
 
@@ -97,4 +100,7 @@ export default class Footer extends React.Component {
       </div>
     );
   }
+
+
+
 }

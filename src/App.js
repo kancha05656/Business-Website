@@ -22,9 +22,9 @@ import './css/responsive.css';
 import logo from './img/logo.svg'
 
 import banner from './img/banner.png'
-// import author1 from './img/testomonial-author/testomonial-author-img-1.jpg'
-// import author2 from './img/testomonial-author/testomonial-author-img-2.jpg'
-// import author3 from './img/testomonial-author/testomonial-author-img-3.jpg'
+import author1 from './img/testomonial-author/testomonial-author-img-1.jpg'
+import author2 from './img/testomonial-author/testomonial-author-img-2.jpg'
+import author3 from './img/testomonial-author/testomonial-author-img-3.jpg'
 
 
 import {
@@ -297,6 +297,10 @@ class Home extends Component {
 
             <section className="testmonial-section-wrapper">
                 <div className="container">
+                   <div className="section-title text-center">
+            <h2><span>Satisfied </span> Customers</h2>
+           
+          </div>
                     <TestimonialSlider/>
                 </div>
             </section>
@@ -336,13 +340,41 @@ class TestimonialSlider extends React.Component {
 
     render() {
         var settings = {
+            arrows: false,
+            dots: false,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      initialSlide: 0,
+      autoplay:true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+              arrows: false,
+            dots: false,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
-            arrows: false,
-            fade: true,
-            infinite: true
-
+            initialSlide: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
         };
 
         return (
@@ -351,20 +383,15 @@ class TestimonialSlider extends React.Component {
                         asNavFor={this.state.nav2}
                         ref={slider => (this.slider1 = slider)}>
 
-                    <Testmonial
-                        description="One of the best developer. Awesome communication, attention to details and project way before the due date. I would recommend  to everyone who is looking to get their web development done. Highly Recommended."
-                        name="Madav pal" title="CEO"/>
+                    <Testmonial name="Petter" review="Putting together a website is a task, finding the right individual or company is even more complex. I did my search around looking for this particular company that has the ability to create, design and optimized my web site. Thanks God I meet Gus at webapprevolution, not only they have great taste in design but they can guide you through the process and beyond." img={author1} />   
 
-                    <Testmonial
-                        description="I have worked with him for couple of projects. familiarit is one of the best. I am very happy for  service and I will talk to them 1st for any project that I have to do. Awesome communication, very hardworking, polite and his hard work shows in the project. Thank you so much."
-                        name="Petter" title="Director"/>
+                       <Testmonial name="Alex" review="Excellent, working with web designer express was great.  Thanks to their knowledge and determination our website looks great and functions really good.  I am recommend anyone that is looking for a custom website to give them a call and speak to Gus, he will guide you to the right direction." img={author2} />  
 
-                    <Testmonial
-                        description="familiarit Did a great job in a very short time. Needed some urgent help and he delivered on time with clean codes. Recommended."
-                        name="Hasan" title="Assistant "/>
-                    <Testmonial
-                        description="Very professional and reliable, exceptional work quality and accuracy, excellent communication, high interest and very skilled in finding solutions and ways to fix bug issues at hand"
-                        name="Babar" title="Manager"/>
+                           <Testmonial name="Matthew Sedaghat " review="Web Designer Express did a great job of not only creating our website how we wanted it to be, but also gave us great insight on what they believed will help boost sales. Their proven experience and excellence is the reason why our company would recommend Web Designer Express to anyone who is looking to create a customized website." img={author3} />    
+
+                             <Testmonial name="Andrew Roy" review="My company just wanted to say that we were very impressed with the quality of the website, the price we paid compared to other web design company was extremely low. I love the finished product you provided us. I highly recommend you as a top website designer. Thank you, PS. Gus you are the best!!! Roy Kirchner" img={author1} />
+               
+                        
 
                 </Slider>
 
@@ -381,11 +408,21 @@ class TestimonialSlider extends React.Component {
 function Testmonial(props) {
     return (
         <div className="col-12">
-            <div className="single-testomonial-comment">
-                <p>{props.description}</p>
-                <h4>{props.name}</h4>
-                <span>{props.title}</span>
+<div className="single-testomonial-slide">
+            <div className="testomonial-author d-flex align-items-center">
+              <div className="test-author-image">
+                <img src={props.img} className="w-100" alt="Image"/>
+              </div>
+              <div className="test-author-content">
+                  <h6>{props.name}</h6>
+              </div>
             </div>
+            <div className="testomonial-text">
+              <p>“{props.review}”
+              </p>
+            </div>
+          </div>
+
         </div>
     )
 
