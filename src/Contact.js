@@ -96,6 +96,19 @@ import contact_banner from './img/contact-bg.png'
   </section>
 
 
+<section class="map">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+       <div class="map-area">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1254.536986626985!2d-84.58913156988861!3d42.68293530337446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8822c091498150df%3A0xc7a051c50d5128a8!2sW%20Jolly%20Rd%2C%20Lansing%2C%20MI%2C%20USA!5e1!3m2!1sen!2sbd!4v1588964666694!5m2!1sen!2sbd" width="100%" height="450" frameborder="0"   ></iframe>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <Footer />
 

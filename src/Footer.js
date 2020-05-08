@@ -19,7 +19,7 @@ export default class Footer extends React.Component {
         <div className="col-sm-6 col-lg-3">
           <div className="single-footer-widget">
             <div className="footer-logo">
-              <span><img src={logo} alt="logo"/></span>
+              <span><Link to="/"><img src={logo} alt="logo"/></Link></span>
             </div>
             <p>We are here to provide a professional services for you to Globalize your business with our innovation. Contact us to talk about your project.</p>
             <ul className="footer-social-list">
