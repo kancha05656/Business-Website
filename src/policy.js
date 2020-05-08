@@ -20,7 +20,7 @@ import contact_banner from './img/contact-bg.png'
 
 <section class="policy">
   <div class="container">
-    
+     
   </div>
 </section>
 

@@ -2,7 +2,6 @@ import React from 'react';
 import contact_banner from './img/Our-Services.png'
 import Footer from './Footer'
 import Cta from './Cta'
-import AboutSlider from './About_slider'
 import ServiceSection from './Service_section'
 import Banner from './Banner'
 

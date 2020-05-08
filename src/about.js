@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import TeamSlider from './Team_slider'
 import Footer from './Footer'
 import Cta from './Cta'
-import AboutSlider from './About_slider'
 import Banner from './Banner'
 import contactBanner from './img/About-us.png'
 class Check extends Component {

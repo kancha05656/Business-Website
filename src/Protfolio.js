@@ -50,15 +50,14 @@ hello(){
      // filter
     let boxs = document.getElementsByClassName('single-port');
     let pagination = document.getElementsByClassName('pagination')[0];
-    let allShow = document.getElementById('all-show');
-    let activeCls = 'all';
+    let activeCl = 'all';
 
     let buttons = document.getElementsByClassName('filter-btn');
 
 
     // filter function
     const filter  = () => {
-        if (activeCls === 'all') {
+        if (activeCl === 'all') {
             for (let box of boxs) {
               box.style.display = 'block';
             }
@@ -66,7 +65,7 @@ hello(){
             hideAll();
 
             for (let box of boxs) {
-                if (box.classList.contains(activeCls)) {
+                if (box.classList.contains(activeCl)) {
                    box.style.display = 'block';
                 }
             }
@@ -95,14 +94,14 @@ hello(){
         filter();
     }
 
-   for (let btn of buttons) {
-        btn.addEventListener('click', function () {
+   Object.keys(buttons).forEach((item)=>{
+    buttons[item].addEventListener('click', function () {
             removeActClass();
             this.classList.add('active');
-            activeCls = this.getAttribute('data-filter');
+            activeCl = this.getAttribute('data-filter');
             filter();
         })
-    }
+   })
 
 }
 

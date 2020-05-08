@@ -407,7 +407,7 @@ function Testmonial(props) {
 <div className="single-testomonial-slide">
             <div className="testomonial-author d-flex align-items-center">
               <div className="test-author-image">
-                <img src={props.img} className="w-100" alt="Image"/>
+                <img src={props.img} className="w-100" alt={props.name} />
               </div>
               <div className="test-author-content">
                   <h6>{props.name}</h6>
