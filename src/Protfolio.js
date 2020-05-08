@@ -24,8 +24,8 @@ class Check extends Component {
       this.hello= this.hello.bind(this)
       this.pageFirst= this.pageFirst.bind(this)
       this.allshow= this.allshow.bind(this)
-   
-   
+
+
 }
 
 pageFirst(){
@@ -36,13 +36,13 @@ componentDidMount(){
        this.pageFirst();
  this.hello();
 this.setState({data:ProData})
-  
+
 }
 
 allshow(){
   let pagination = document.getElementsByClassName('pagination')[0];
  pagination.style.display = 'block';
-            
+
 }
 
 
@@ -55,7 +55,7 @@ hello(){
 
     let buttons = document.getElementsByClassName('filter-btn');
 
-  
+
     // filter function
     const filter  = () => {
         if (activeCls === 'all') {
@@ -70,7 +70,7 @@ hello(){
                    box.style.display = 'block';
                 }
             }
-       
+
         }
 
     }
@@ -97,7 +97,7 @@ hello(){
 
    for (let btn of buttons) {
         btn.addEventListener('click', function () {
-            removeActClass(); 
+            removeActClass();
             this.classList.add('active');
             activeCls = this.getAttribute('data-filter');
             filter();
@@ -128,14 +128,14 @@ hello(){
             )
         });
 
-   
+
 
         const pageNumber = [];
         for (let i = 1; i <= Math.ceil(data.length / perPage); i++) {
             pageNumber.push(i)
         }
 
-    
+
         const renderPageNumber = pageNumber.map(number => {
                 return (
 
@@ -145,7 +145,7 @@ hello(){
                     </li>
 
                 )
-          
+
 
         })
 
@@ -158,7 +158,7 @@ hello(){
 
 
                 <Banner bannerImg={contactBanner} bannerTitle="OUR PORTFOLIO"
-                        bannerDescription="Familia-IT is a Web Design and Development Company. It was founded in 2017. We are providing Freelance and Outsourcing services with an outstanding team."
+                        bannerDescription="Web Apps Revolutioni is a Web Design and Development Company founded in 2020. We will provide website development and desing for small to big size comapnies."
                         breadCrumb="Our Portfolio"/>
 
 

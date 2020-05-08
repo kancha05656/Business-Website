@@ -12,7 +12,7 @@ window.scrollTo(0, 0);
 render() {
 return (
 <div>
-    <Banner bannerImg={contactBanner} bannerTitle="ABOUT US" bannerDescription="Familia-IT is a Web Design and Development Company. It was founded in 2017. We are providing Freelance and Outsourcing services with an outstanding team." breadCrumb="About Us" />
+    <Banner bannerImg={contactBanner} bannerTitle="ABOUT US" bannerDescription="Web Apps Revolutioni is a Web Design and Development Company founded in 2020. We will provide website development and desing for small to big size comapnies." breadCrumb="About Us" />
     <section class="about-more">
      <div class="container">
             <div class="about-des">

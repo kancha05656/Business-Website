@@ -13,7 +13,7 @@ export default class Service extends React.Component {
 
           <div className="section-title">
             <h2><span>Our </span>Service</h2>
-            <p>We work to meet our client's expectation. We build business website from ground up to finished.</p>
+            <p>We work to to fullfill our customer's expectation. We build business website from ground up to finished.</p>
           </div>
         </div>
       </div>

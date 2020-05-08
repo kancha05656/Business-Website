@@ -13,7 +13,7 @@ import contact_banner from './img/contact-bg.png'
 		return (
 			<div>
 
- <Banner bannerImg={contact_banner} bannerTitle="CONTACT US" bannerDescription="Describe your requirement and give the chance to walk together. And Don't be hesitated to send a message we are friendly to keep in touch with you." breadCrumb="Contact Us" />
+ <Banner bannerImg={contact_banner} bannerTitle="CONTACT US" bannerDescription="Describe your projects and requirements to start bring your imagination to live. Contact us if you have any questions" breadCrumb="Contact Us" />
 
 
 
