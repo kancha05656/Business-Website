@@ -18,9 +18,13 @@ return (
             <div class="about-des">
             <div className="section-title text-center">
                 <h2><span>WHO </span> WE ARE?</h2>
-                <p>We Build Smarter and Highly Usable Stuff!</p>
+                <p>We Build Web Aplications with Latest Technologies and Innovation.</p>
             </div>
-            <p>Technobd Limited is an IT enabled Web and Mobile Application Development service providing company in the market since 2000. Technobd Limited provides two major types of service. One is Web Solution that consists of high quality Web Design & Development, Website Maintenance, Social Networking Platform Development, E-Commerce Solutions, CMS Solutions, e-Prochar as E-mail Marketing Service, Managed Web Hosting Service and Domain Registration Service. Other one is Mobile Application Development in both Android & iOS Platform.</p>
+            <p>
+              Web Apps Revolution, We will helps businesses throught website design services. We make customized answers for each customer after an in-depth understanding of their
+              business destinations. Working in close relationship with our client's, we help them make a vigorous online nearness for broad brand mindfulness. We edge sway inbound showcasing efforts
+              which draw in immediate and more noteworthy traffic to the customer's website.
+            </p>
         </div>
           <div class="about-des">
             <div className="section-title text-center">
@@ -31,15 +35,18 @@ return (
         </div>
           <div class="about-des">
             <div className="section-title text-center">
-                <h2><span>OUR </span>   VISION</h2>
+                <h2><span>OUR </span> VISION</h2>
             </div>
-            <p>To be the leading company inWeb & Mobile Application Development Company that empowers individuals& companies to transform their ideas to reality.</p>
+            <p>Our vision is vast to set up a standard and world class website for our client, whose services will not only be accepted in local area, but also in all parts of the world.</p>
         </div>
           <div class="about-des pb-0">
             <div className="section-title text-center">
                 <h2><span>OUR </span>    MISSION</h2>
             </div>
-            <p>Our mission is 100% client satisfaction and we focused on versatile project management with aim to provide Web & Mobile App solutions with global acceptability.</p>
+            <p>
+              Our mission is to provide professional and highly creative web design services that will assist business,
+              individuals and non-profit organizations in promoting their brands and reaching out to a ide range of potential customers all over the world.
+            </p>
         </div>
      </div>
     </section>
