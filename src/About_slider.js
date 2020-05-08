@@ -16,21 +16,22 @@ export default class About_slider extends React.Component {
  <section className="about-us-section">
     <div className="container">
       <div className="row flex-row-reve flex-row-reverse">
-         
+
             <SimpleSlider />
 
         <div className="col-lg-5">
           <div className="about-us-content">
             <h2>About <span>US</span></h2>
-            <h4>We’re a team of curious people that share a passion for creating digital experiences.</h4>
-            <p>Familiar-IT is a full-service web design &amp; development company founded in 2017. The company
-              develops and improves professional websites for customers across a wide range of industries.</p>
-            <p> The company’s expertise is its commitment to offer custom-made website for every client, from
-              small business websites to all websites.</p>
+            <h4>We’re a team of declicated people, share a passion for creating digital experiences with new technologies and innovation.</h4>
+            <p>Web App Revolution is a full-service web design &amp; development company founded in 2020. The company
+              develops and improves professional websites for customers across all over the world with wide range of industries.</p>
+
+            <p> The company’s goals is to provide custom-made website for every customers, from
+              small business to large business websites. </p>
             <Link to="/about" className="btn modern-btn dark">More About Us</Link>
           </div>
         </div>
-        
+
 
       </div>
     </div>
@@ -44,13 +45,13 @@ export default class About_slider extends React.Component {
 function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
- 
-      
-    
+
+
+
     <button className={className}
-     
+
       onClick={onClick}><i className="fas fa-angle-right"></i></button>
-    
+
   );
 }
 
@@ -60,13 +61,13 @@ function SamplePrevArrow(props) {
   return (
 
     <button className={className}
-     
+
       onClick={onClick}><i className="fas fa-angle-left"></i></button>
-   
+
   );
 }
 
- 
+
 class SimpleSlider extends React.Component {
 
 
@@ -82,7 +83,7 @@ class SimpleSlider extends React.Component {
       prevArrow:<SamplePrevArrow />
 
     };
-    
+
     return (
          <div className="col-lg-7">
           <div className="about-us-slider">
@@ -99,7 +100,7 @@ class SimpleSlider extends React.Component {
         <img src={about_img2} className="img-fluid"
                   alt="comment author" />
         </div>
-        
+
       </Slider>
     </div>
     </div>
@@ -108,27 +109,3 @@ class SimpleSlider extends React.Component {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
