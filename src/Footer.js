@@ -21,8 +21,7 @@ export default class Footer extends React.Component {
             <div className="footer-logo">
               <span><img src={logo} alt="logo"/></span>
             </div>
-            <p>We are here to provide a professional services for your business. Contact us anytime. We are friendly to
-              support you.</p>
+            <p>We are here to provide a professional services for you to Globalize your business with our innovation. Contact us to talk about your project.</p>
             <ul className="footer-social-list">
               <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/webapprevolutions"><i className="fab fa-facebook-f"></i></a></li>
               <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WebappR"><i className="fab fa-twitter"></i></a></li>
@@ -59,7 +58,7 @@ export default class Footer extends React.Component {
                   <p>West Jolly Road<br/>Lansing, Michigan </p>
                 </li>
                 <li> <i className="fas fas fa-envelope"></i>
-                  <p>webapprevolution2020@gmail.com</p>
+                  <p>webapprevolutions@gmail.com</p>
                   {/*<p>familiarit.star@gmail.com</p>*/}
                 </li>
                 <li> <i className="fas fas fa-phone"></i>

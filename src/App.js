@@ -247,10 +247,11 @@ class Home extends Component {
 
                                     <div className="video-features-content">
                                         <h4>Easy Customize Documention</h4>
-                                        <p>Our coding will 100% hand-coded and part by part organized as well as we will
-                                            provide you the
-                                            documentation of every part. So everybody can read and make changes
-                                            easily.</p>
+                                        <p>
+                                            Our coding will 100% hand-coded and all parts are organized as well. We will
+                                            provide you with all the documentation of all part, so you can read and make changes
+                                            according to you needs.
+                                          </p>
                                     </div>
                                 </div>
 
@@ -263,10 +264,10 @@ class Home extends Component {
 
                                     <div className="video-features-content">
                                         <h4>Awesome Features</h4>
-                                        <p>We provide the modern design with the latest technology and standard quality
-                                            coding. For that, your
-                                            website will be so
-                                            much user-friendly.</p>
+                                        <p>
+                                          We will provide the custimizes design with the latest technologies and quality standard
+                                          coding to give your website the professional, user friendly look and full responsive that work for all devicies.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -278,9 +279,8 @@ class Home extends Component {
                                     </div>
 
                                     <div className="video-features-content">
-                                        <h4>24/7 Support</h4>
-                                        <p>Client satisfaction is our first priority. We are here with you every time to
-                                            help.</p>
+                                        <h4>24/7 Supports</h4>
+                                        <p>Our customers satisfaction is our main priority. We will provide 24/7 supports to our customers.</p>
                                     </div>
                                 </div>
 
@@ -299,7 +299,7 @@ class Home extends Component {
                 <div className="container">
                    <div className="section-title text-center">
             <h2><span>Satisfied </span> Customers</h2>
-           
+
           </div>
                     <TestimonialSlider/>
                 </div>
@@ -379,15 +379,15 @@ class TestimonialSlider extends React.Component {
                         asNavFor={this.state.nav2}
                         ref={slider => (this.slider1 = slider)}>
 
-                    <Testmonial name="Petter" review="Putting together a website is a task, finding the right individual or company is even more complex. I did my search around looking for this particular company that has the ability to create, design and optimized my web site. Thanks God I meet Gus at webapprevolution, not only they have great taste in design but they can guide you through the process and beyond." img={author1} />   
+                    <Testmonial name="Petter" review="Putting together a website is a task, finding the right individual or company is even more complex. I did my search around looking for this particular company that has the ability to create, design and optimized my web site. Thanks God I meet Gus at webapprevolution, not only they have great taste in design but they can guide you through the process and beyond." img={author1} />
 
-                       <Testmonial name="Alex" review="Excellent, working with web designer express was great.  Thanks to their knowledge and determination our website looks great and functions really good.  I am recommend anyone that is looking for a custom website to give them a call and speak to Gus, he will guide you to the right direction." img={author2} />  
+                       <Testmonial name="Alex" review="Excellent, working with web designer express was great.  Thanks to their knowledge and determination our website looks great and functions really good.  I am recommend anyone that is looking for a custom website to give them a call and speak to Gus, he will guide you to the right direction." img={author2} />
 
-                           <Testmonial name="Matthew Sedaghat " review="Web Designer Express did a great job of not only creating our website how we wanted it to be, but also gave us great insight on what they believed will help boost sales. Their proven experience and excellence is the reason why our company would recommend Web Designer Express to anyone who is looking to create a customized website." img={author3} />    
+                           <Testmonial name="Matthew Sedaghat " review="Web Designer Express did a great job of not only creating our website how we wanted it to be, but also gave us great insight on what they believed will help boost sales. Their proven experience and excellence is the reason why our company would recommend Web Designer Express to anyone who is looking to create a customized website." img={author3} />
 
                              <Testmonial name="Andrew Roy" review="My company just wanted to say that we were very impressed with the quality of the website, the price we paid compared to other web design company was extremely low. I love the finished product you provided us. I highly recommend you as a top website designer. Thank you, PS. Gus you are the best!!! Roy Kirchner" img={author1} />
-               
-                        
+
+
 
                 </Slider>
 
