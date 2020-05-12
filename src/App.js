@@ -227,7 +227,7 @@ class Home extends Component {
                                 <div className="video-content">
                                     <span>We have an excellent story</span>
                                     <h2>Watch Our Video</h2>
-                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})} />
+                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='XSvsTSIYkYE' onClose={() => this.setState({isOpen: false})} />
 
                                     <button type="button" onClick={this.openModal}  className="video-btn js-video-button"><i className="fa fas fa-play"></i>
                                     </button>
