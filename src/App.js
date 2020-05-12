@@ -139,9 +139,9 @@ class App extends Component {
                                 <nav ref={this.toggleMenu}>
                                     <ul className="navbar">
                                         <li><Link onClick={this.navClick} to='/'>HOME</Link></li>
-                                        <li><Link onClick={this.navClick} to='/About'>ABOUT</Link></li>
+                                         <li><Link onClick={this.navClick} to='/Protfolio'> PROTFOLIO</Link></li>
                                         <li><Link onClick={this.navClick} to='/service'> SERVICES</Link></li>
-                                        <li><Link onClick={this.navClick} to='/Protfolio'> PROTFOLIO</Link></li>
+                                        <li><Link onClick={this.navClick} to='/About'>ABOUT</Link></li>
                                         <li><Link onClick={this.navClick} to='/Contact'>CONTACT</Link></li>
                                     </ul>
                                 </nav>
