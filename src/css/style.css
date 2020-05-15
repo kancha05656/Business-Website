@@ -709,7 +709,7 @@ section.inner-banner-wrapper {
 
 .video-content {
     position: relative;
-    z-index: 2;
+    z-index: 9999999999999999999999;
     width: 100%;
 }
 
@@ -2093,4 +2093,30 @@ section.map {
 }
 .place-card.place-card-large {
     display: none;
+}
+
+.policy-wrap{
+        background-size: 15px 15px;
+    background-color: var(--bg-secondary);
+    padding-bottom: 70px;
+    padding-top: 60px;
+}
+.policy-section {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #dddd;
+    padding-top: 40px;
+    box-shadow: 0 0px 15px -2px rgba(0, 0, 0, .1);
+}
+.single-policy h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.single-policy p {
+    margin-bottom: 16px;
+}
+.single-policy {
+    padding-bottom: 10px;
 }

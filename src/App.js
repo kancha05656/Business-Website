@@ -9,6 +9,8 @@ import TeamSlider from './Team_slider'
 import Footer from './Footer'
 import Cta from './Cta'
 import AboutSlider from './About_slider'
+import Policy from './policy'
+import Terms from './Terms'
 import ServiceSection from './Service_section'
 import ModalVideo from 'react-modal-video'
 
@@ -166,6 +168,8 @@ class App extends Component {
                         <Route path="/Protfolio" component={Protfolio}/>
 
                         <Route path="/Contact" component={Contact}/>
+                        <Route path="/Policy" component={Policy}/>
+                        <Route path="/Terms" component={Terms}/>
 
                     </Switch>
 
