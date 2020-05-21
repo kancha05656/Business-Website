@@ -2120,3 +2120,6 @@ section.map {
 .single-policy {
     padding-bottom: 10px;
 }
+ul.slick-dots {
+    margin: 0 auto !important;
+}

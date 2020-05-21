@@ -93,11 +93,11 @@ class SimpleSlider extends React.Component {
                   alt="comment author" />
         </div>
         <div>
-          <img src={about_img1} className="img-fluid"
+          <img src={about_img2} className="img-fluid"
                   alt="comment author" />
         </div>
         <div>
-        <img src={about_img2} className="img-fluid"
+        <img src={about_img1} className="img-fluid"
                   alt="comment author" />
         </div>
 
