@@ -858,7 +858,7 @@ section.inner-banner-wrapper {
     text-transform: uppercase;
     padding-bottom: 10px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 0px;
     position: relative;
 }
 
@@ -873,9 +873,11 @@ section.inner-banner-wrapper {
 
 
 .team-slider-active ul.slick-dots {
-    text-align: center;
+   text-align: center;
     line-height: 0;
     margin-top: 30px;
+    width: 100%;
+    margin-top: 30px !important;
 }
 
 .team-slider-active ul.slick-dots li button {
@@ -1628,7 +1630,7 @@ Preloader end
 
 
 .single-team-slider .team-slider-img img {
-    min-height: 380px;
+    min-height: 300px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -2126,4 +2128,28 @@ ul.slick-dots {
 .test-author-image img {
     width: 100%;
     height: 100%;
+}
+.messages-show {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(0,0,0,0.2);
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: -9999;
+}
+.messages-show h3 {
+    margin: 0;
+    line-height: 30px;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+    color: #0764ea;
+    text-transform: capitalize;
 }
