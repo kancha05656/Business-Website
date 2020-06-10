@@ -3,7 +3,7 @@ import TeamSlider from './Team_slider'
 import Footer from './Footer'
 import Cta from './Cta'
 import Banner from './Banner'
-import contactBanner from './img/About-us.png'
+import contactBanner from './img/About-us.jpg'
 class Check extends Component {
 componentDidMount() {
 window.scrollTo(0, 0);

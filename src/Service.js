@@ -1,5 +1,5 @@
 import React from 'react';
-import contact_banner from './img/Our-Services.png'
+import contact_banner from './img/Our-Services.jpg'
 import Footer from './Footer'
 import Cta from './Cta'
 import ServiceSection from './Service_section'

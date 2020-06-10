@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './Footer'
 import Banner from './Banner'
-import contact_banner from './img/contact-bg.png'
+import contact_banner from './img/contact-bg.jpg'
 
 
  class Contact extends React.Component {
