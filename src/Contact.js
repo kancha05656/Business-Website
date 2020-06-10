@@ -19,7 +19,7 @@ import axios from 'axios';
   this.handleChange= this.handleChange.bind(this)
   this.animaiton= this.animaiton.bind(this)
 }
- 
+
   componentDidMount() {
         window.scrollTo(0, 0);
     }
@@ -55,7 +55,7 @@ handleFormSubmit( event ) {
     })
     .catch(error => this.setState({ error: error.message }));
     event.target.reset();
-     
+
 }
 
 
@@ -70,7 +70,7 @@ handleFormSubmit( event ) {
  <section className="contact-us-section-wrap">
     <div className="container">
 
-            
+
       <div className="contact-us-wrap-box">
 
 
@@ -88,7 +88,7 @@ handleFormSubmit( event ) {
 
           <div className="col-lg-8">
             <div className="messages-show">
-              <h3>Thanks for message us. We will content you very soon.</h3>
+              <h3>Thanks for your message. We will content you as soon as possible.</h3>
               </div>
             <form action="/Contact" method="GET" className="contact-form" onSubmit={e => this.handleFormSubmit(e)}>
 
@@ -175,6 +175,3 @@ handleFormSubmit( event ) {
 }
 
 export default Contact;
-
-
-
