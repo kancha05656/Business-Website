@@ -157,7 +157,7 @@ hello(){
 
 
                 <Banner bannerImg={contactBanner} bannerTitle="OUR PORTFOLIO"
-                        bannerDescription="Web Apps Revolutioni is a Web Design and Development Company founded in 2020. We will provide website development and desing for small to big size comapnies."
+                        bannerDescription="Web Apps Revolution is a Web Design and Development company founded in 2020. We will provide website development and design for small to large companies."
                         breadCrumb="Our Portfolio"/>
 
 

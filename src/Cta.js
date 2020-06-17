@@ -18,9 +18,7 @@ export default class Cta extends React.Component {
         <div className="col-xl-10">
           <div className="cta-content text-center">
             <h2>Ready To Start a New Project?</h2>
-            <p>If you have any questions or you want to know something just click the button below and write down your
-              speech. We always love to keep in touch with a very friendly and helpful mind. We feel proud if we can do
-              something better for anyone.</p>
+            <p>If you have any questions just click the button below. We love to have conversation with you about your ideas and expectations.</p>
             <Link to="/Contact" className="cta-btn btn modern-btn">Contact US</Link>
           </div>
         </div>
@@ -31,29 +29,3 @@ export default class Cta extends React.Component {
 		);
 	}
 }
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-

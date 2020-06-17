@@ -21,7 +21,7 @@ export default class Footer extends React.Component {
             <div className="footer-logo">
               <span><Link to="/"><img src={logo} alt="logo"/></Link></span>
             </div>
-            <p>We are here to provide a professional services for you to Globalize your business with our innovation. Contact us to talk about your project.</p>
+            <p>We are here to provide professional services for you to Globalize your business with our innovation. Contact us to talk about your project.</p>
             <ul className="footer-social-list">
               <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/webapprevolutions"><i className="fab fa-facebook-f"></i></a></li>
               <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/WebappR"><i className="fab fa-twitter"></i></a></li>

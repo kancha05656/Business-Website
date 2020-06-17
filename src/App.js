@@ -252,9 +252,8 @@ class Home extends Component {
                                     <div className="video-features-content">
                                         <h4>Easy Customize Documention</h4>
                                         <p>
-                                            Our coding will 100% hand-coded and all parts are organized as well. We will
-                                            provide you with all the documentation of all part, so you can read and make changes
-                                            according to you needs.
+                                            Our coding is 100% hand-coded. All components are organized as well. We will
+                                            provide you with the documentation of all components.
                                           </p>
                                     </div>
                                 </div>
@@ -269,8 +268,8 @@ class Home extends Component {
                                     <div className="video-features-content">
                                         <h4>Awesome Features</h4>
                                         <p>
-                                          We will provide the custimizes design with the latest technologies and quality standard
-                                          coding to give your website the professional, user friendly look and full responsive that work for all devicies.
+                                          We will provide a custom design with the latest technologies and quality standard
+                                          coding to give your website the professional, user friendly look that will work with all devices.
                                         </p>
                                     </div>
                                 </div>
@@ -283,8 +282,8 @@ class Home extends Component {
                                     </div>
 
                                     <div className="video-features-content">
-                                        <h4>24/7 Supports</h4>
-                                        <p>Our customers satisfaction is our main priority. We will provide 24/7 supports to our customers.</p>
+                                        <h4>24/7 Support</h4>
+                                        <p>Our customers satisfaction is our main priority. We will provide 24/7 supports to our customer.</p>
                                     </div>
                                 </div>
 

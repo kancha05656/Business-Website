@@ -17,7 +17,7 @@ export default class Service extends React.Component {
 			<div>
 
 
-  <Banner bannerImg={contact_banner} bannerTitle="OUR SERVICES" bannerDescription="Globalize your business with our innovation. We are here to make your imagination come to live with our latest technologies and innovation." breadCrumb="Our Service" />
+  <Banner bannerImg={contact_banner} bannerTitle="OUR SERVICES" bannerDescription="Globalize your business with our innovations. We are here to make your imagination come to life with our latest technologies and innovations." breadCrumb="Our Service" />
 
 
 

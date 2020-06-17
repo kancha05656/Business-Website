@@ -13,7 +13,7 @@ export default class Service extends React.Component {
 
           <div className="section-title">
             <h2><span>Our </span>Service</h2>
-            <p>We work to to fullfill our customer's expectation. We build business website from ground up to finished.</p>
+            <p>We work to to fulfill our customer's expectations. We build business website from ground up.</p>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@ export default class Service extends React.Component {
             <span><i className="fas fa-desktop"></i></span>
 
             <h3>Web Development</h3>
-            <p>We are experts in building web applications. We create the business website’s with core structure for make your business dynamic in online presence. </p>
+            <p>We are experts in building web applications. We create the website’s with core structure to make your business dynamic with online presence. </p>
           </div>
         </div>
 
@@ -37,8 +37,8 @@ export default class Service extends React.Component {
             <span><i className="fas fa-pen-nib"></i></span>
 
             <h3>Web Design</h3>
-            <p>Our design will makes your website look professional. We focus on the style and overall feel of the page with
-          		new and latest technologies.</p>
+            <p>Our design will makes your website look professional. We focus on the style and overall feel of the page with the
+          		newest and latest technologies.</p>
           </div>
         </div>
 
@@ -50,7 +50,7 @@ export default class Service extends React.Component {
 
             <span><i className="fas fa-mobile-alt"></i></span>
             <h3>Fully Responsive</h3>
-            <p>Most of the people will be accessing website from their phone, so build responsive designs that work in all kinds of devices.</p>
+            <p>Many people will be accessing the website from their phone, so we build responsive designs that work with all kinds of devices.</p>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ export default class Service extends React.Component {
 
             <span><i className="fa fa-bug"></i></span>
             <h3>Bug Fixing</h3>
-          <p>Don't worries if you have any problems in your website! we will find out the problem and  fix it all. Connect to us and let talk about the your problems and our solutions.  </p>
+          <p>No worries. If you have any problems with your website we will find the problem and fix it. Contact us and lets talk.  </p>
 
           </div>
         </div>
@@ -73,7 +73,7 @@ export default class Service extends React.Component {
             <span><i className="fab fa-wordpress-simple"></i></span>
 
             <h3>Wordpress</h3>
-            <p>We create WordPress websites using the latest techniques, trends, and tools. When we're finished, you can
+            <p>We create WordPress websites using the latest techniques, trends and tools. When we're finished, you can
               manage your content with ease.</p>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default class Service extends React.Component {
             <span><i className="fas fa-headset"></i></span>
 
             <h3>Full Support</h3>
-            <p>Let us take the business of maintaining your site out of your hands. Don't worry we will give you 24/7 support whenever you need</p>
+            <p>Hassle free 24/7 support</p>
           </div>
         </div>
       </div>

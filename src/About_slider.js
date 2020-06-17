@@ -22,12 +22,12 @@ export default class About_slider extends React.Component {
         <div className="col-lg-5">
           <div className="about-us-content">
             <h2>About <span>US</span></h2>
-            <h4>We’re a team of declicated people, share a passion for creating digital experiences with new technologies and innovation.</h4>
+            <h4>We’re a team of dedicated people who share a passion for creating digital experiences with new technologies and innovation.</h4>
             <p>Web App Revolution is a full-service web design &amp; development company founded in 2020. The company
               develops and improves professional websites for customers across all over the world with wide range of industries.</p>
 
-            <p> The company’s goals is to provide custom-made website for every customers, from
-              small business to large business websites. </p>
+            <p> The company’s goals is to provide custom-made websites for every customer, from
+              small to large businesses. </p>
             <Link to="/about" className="btn modern-btn dark">More About Us</Link>
           </div>
         </div>

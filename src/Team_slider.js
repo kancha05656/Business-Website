@@ -19,7 +19,7 @@ export default class Team_slider extends React.Component {
 
             <div className="section-title">
               <h2><span>Our </span>Team</h2>
-              <p>Meet our passionated and dedicated team members in Web App Revolution</p>
+              <p>Meet our passionate and dedicated team in Web App Revolution</p>
             </div>
           </div>
         </div>
