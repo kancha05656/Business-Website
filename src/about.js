@@ -55,7 +55,7 @@ return (
                 <div className="col-lg-4 offset-xl-1">
                     <div className="counter-section-titile">
                         <h2><span>Our</span> Achievement</h2>
-                        <p>We have completed more than 1000 projects. We have about 200 satisfied clients because we focus on client satisfaction first. The proudest thing is we got 3 national awards.</p>
+                        <p>We have completed more than 100 projects. We have about 20 satisfied clients because we focus on client satisfaction first. The proudest thing is we got 1 national awards.</p>
                     </div>
                 </div>
                 <div className="col-lg-8 col-xl-7">
@@ -64,21 +64,21 @@ return (
                             <div className="counter-icon">
                                 <span><i className="fas fa-id-card-alt"></i></span>
                             </div>
-                            <span className="counter">1000</span>
+                            <span className="counter">100</span>
                             <p>Project Complate</p>
                         </div>
                         <div className="singel-counter-box">
                             <div className="counter-icon">
                                 <span><i className="far fa-heart"></i></span>
                             </div>
-                            <span className="counter">200</span>
+                            <span className="counter">20</span>
                             <p>Satisfied Clients</p>
                         </div>
                         <div className="singel-counter-box">
                             <div className="counter-icon">
                                 <span><i className="fas fa-trophy"></i></span>
                             </div>
-                            <span className="counter">3</span>
+                            <span className="counter">1</span>
                             <p>Win Awards</p>
                         </div>
                     </div>

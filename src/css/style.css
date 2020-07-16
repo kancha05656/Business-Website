@@ -506,6 +506,7 @@ section.inner-banner-wrapper {
         0 4px 4px rgba(0, 0, 0, 0.11),
         0 6px 8px rgba(0, 0, 0, 0.11),
         0 8px 16px rgba(0, 0, 0, 0.11);
+        min-height: 362px;
 }
 
 .single-service:hover {
@@ -1353,7 +1354,9 @@ footer {
 .single-footer-widget {
     margin-bottom: 50px;
 }
-
+.footer-logo {
+    margin-bottom: 20px;
+}
 .footer-widget-title h4 {
     font-size: 20px;
     color: #f9f9f9;
