@@ -282,8 +282,8 @@ class Home extends Component {
                                     </div>
 
                                     <div className="video-features-content">
-                                        <h4>24/7 Support</h4>
-                                        <p>Our customers satisfaction is our main priority. We will provide 24/7 supports to our customer.</p>
+                                        <h4>After Projects Support</h4>
+                                        <p>Customers satisfaction is our main priority. Email us if you have any questions or concern, we will reply to your email withtin 12 hours.</p>
                                     </div>
                                 </div>
 
