@@ -283,7 +283,7 @@ class Home extends Component {
 
                                     <div className="video-features-content">
                                         <h4>After Projects Support</h4>
-                                        <p>Customers satisfaction is our main priority. Email us if you have any questions or concern, we will reply to your email withtin 12 hours.</p>
+                                        <p>Customers satisfaction is our number one priority. Email us if you have any questions or concern, we will reply to your email withtin 12 hours.</p>
                                     </div>
                                 </div>
 
