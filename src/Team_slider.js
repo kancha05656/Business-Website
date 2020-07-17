@@ -72,7 +72,7 @@ class Member extends React.Component {
 
    <TeamCard name="Md. Alamin" title="Full Stack Developer" facebook="https://www.facebook.com/alaminislam05" github="https://github.com/alaminAB" linkedin="https://www.linkedin.com/in/familiar-it-5b1a67128/" img={alamin}/>
 
-        <TeamCard name="Md. Rasel" title="Full Stack Developer" facebook="https://www.facebook.com/rslahmed383/" github="https://github.com/rslahmed" linkedin="https://www.linkedin.com/in/rslahmed/" img={rasel}/>
+        <TeamCard name="Rasel Ahmed" title="Full Stack Developer" facebook="https://www.facebook.com/rslahmed383/" github="https://github.com/rslahmed" linkedin="https://www.linkedin.com/in/rslahmed/" img={rasel}/>
 
         <TeamCard name="Akash Hawladar" title="Developer" facebook="https://www.facebook.com/shanboy.akash" github="https://github.com/r-yan-akash" linkedin="https://www.linkedin.com/mwlite/in/shanboy-jisan-7a1111175" img={akash}/>
 

@@ -710,7 +710,7 @@ section.inner-banner-wrapper {
 
 .video-content {
     position: relative;
-    z-index: 9999;
+    z-index: 1;
     width: 100%;
 }
 
@@ -1288,6 +1288,7 @@ section.counter-section-wrapper::after {
     text-align: center;
     padding: 80px 0;
     margin-right: 60px;
+    justify-content: center;
 }
 
 .singel-counter-box .counter-icon span {
