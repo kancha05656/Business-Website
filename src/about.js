@@ -55,23 +55,23 @@ return (
                 <div className="col-lg-4 offset-xl-1">
                     <div className="counter-section-titile">
                         <h2><span>Our</span> Achievement</h2>
-                        <p>We have completed more than 100 projects. We have about 20 satisfied clients because we focus on client satisfaction first. The proudest thing is we got 1 national awards.</p>
+                        <p>We have completed more than 15+ projects. We have about 10+ satisfied clients because we focus on client satisfaction first.</p>
                     </div>
                 </div>
-                <div className="col-lg-5 col-xl-6">
+                <div className="col-lg-6 col-xl-7">
                     <div className="counter-section-content">
                         <div className="singel-counter-box">
                             <div className="counter-icon">
                                 <span><i className="fas fa-id-card-alt"></i></span>
                             </div>
-                            <span className="counter">100</span>
+                            <span className="counter">15</span>
                             <p>Project Complate</p>
                         </div>
                         <div className="singel-counter-box">
                             <div className="counter-icon">
                                 <span><i className="far fa-heart"></i></span>
                             </div>
-                            <span className="counter">20</span>
+                            <span className="counter">10</span>
                             <p>Satisfied Clients</p>
                         </div>
                {/*         <div className="singel-counter-box">

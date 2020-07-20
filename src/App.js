@@ -23,7 +23,7 @@ import './css/responsive.css';
 
 import logo from './img/logo.svg'
 
-import banner from './img/banner.png'
+import banner from './img/banner.jpg'
 import author1 from './img/testomonial-author/testomonial-author-img-1.jpg'
 import author2 from './img/testomonial-author/testomonial-author-img-2.jpg'
 import author3 from './img/testomonial-author/testomonial-author-img-3.jpg'

@@ -32,12 +32,12 @@
     "catagory":"design"
   },
   {
-    "id": 5,
-    "name":"alqaryah auction",
-    "url":"https://alqaryahauction.com",
-    "img":"/img/portfolio/carweb.jpg",
-    "color":"#E62E36",
-    "catagory":"design"
+    "id": 16,
+    "name":"freshmilk software",
+    "url":"https://www.freshmilksoftware.com/flobot/",
+    "img":"/img/portfolio/FLOBOT.jpg",
+    "color":"#3B8CC1 ",
+    "catagory":"bugfix"
   },
   {
     "id": 6,
@@ -118,14 +118,6 @@
     "img":"/img/portfolio/famebolt.jpg",
     "color":"#B08532 ",
     "catagory":"design"
-  },
-  {
-    "id": 16,
-    "name":"freshmilk software",
-    "url":"https://www.freshmilksoftware.com/flobot/",
-    "img":"/img/portfolio/FLOBOT.jpg",
-    "color":"#3B8CC1 ",
-    "catagory":"bugfix"
   },
   {
     "id": 17,
