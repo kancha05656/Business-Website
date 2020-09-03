@@ -1,5 +1,4 @@
-/* google fonts */
-@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto:300,400,500,700&display=swap');
+
 
 /* color variable */
 :root {
@@ -710,7 +709,7 @@ section.inner-banner-wrapper {
 
 .video-content {
     position: relative;
-    z-index: 9999;
+    z-index: 1;
     width: 100%;
 }
 
@@ -1045,7 +1044,7 @@ section.inner-banner-wrapper {
 /* cta area */
 
 .cta-section-wrapper {
-    background-image: url('../img/contact-bg.png');
+    background-image: url('../img/contact-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1288,6 +1287,7 @@ section.counter-section-wrapper::after {
     text-align: center;
     padding: 80px 0;
     margin-right: 60px;
+    justify-content: center;
 }
 
 .singel-counter-box .counter-icon span {
