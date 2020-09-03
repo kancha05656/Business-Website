@@ -55,7 +55,7 @@ export default class Footer extends React.Component {
               <h4>CONTACT US</h4>
               <ul className="footer-contact">
                 <li> <i className="fas fa-map-marker-alt"></i>
-                  <p>West Jolly Road<br/>Lansing, Michigan </p>
+                  <p>Mahel Drive<br/>Reynoldsburg, Ohio </p>
                 </li>
                 <li> <i className="fas fas fa-envelope"></i>
                   <p>webapprevolutions@gmail.com</p>
@@ -77,8 +77,8 @@ export default class Footer extends React.Component {
               <h4>USEFUL LINK</h4>
            <ul className="footer-service-list">
                 <li><Link to="/" >Home</Link></li>
-                <li><Link to="/service" >Service</Link></li>
-                <li><Link to="/service">Contact Us</Link></li>
+                <li><Link to="/service" >Services</Link></li>
+                <li><Link to="/Contact">Contact Us</Link></li>
                 <li><Link to="/policy">Privacy And Policy</Link></li>
                 <li><Link to="/Terms">Terms And Conditions</Link></li>
               </ul>
